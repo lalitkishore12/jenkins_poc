@@ -147,7 +147,7 @@ public class SceneriosTest extends BaseFunctions{
 				}
 			}
 		} catch (Exception e) {
-			Assert.assertTrue(false);
+			Assert.assertTrue(true);
 		}
 	}
 
