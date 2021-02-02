@@ -26,6 +26,6 @@ public class CabLocator {
 				break;
 			}
 		}
-		System.out.println("Cab details fetched");;
+		System.out.println("Cab details fetched");
 	}
 }
