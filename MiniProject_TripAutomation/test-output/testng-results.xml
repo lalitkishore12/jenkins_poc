@@ -1,82 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+<testng-results ignored="1" total="10" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-24T09:37:59Z" name="Default suite" finished-at="2021-01-24T09:39:20Z" duration-ms="81141">
+  <suite started-at="2021-02-02T04:11:50Z" name="Default suite" finished-at="2021-02-02T04:12:40Z" duration-ms="50503">
     <groups>
       <group name="Regression">
-        <method signature="SceneriosTest.enterDepatureDate()[pri:6, instance:TestScenerios.SceneriosTest@41005828]" name="enterDepatureDate" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.enterDestination()[pri:5, instance:TestScenerios.SceneriosTest@41005828]" name="enterDestination" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.enterPickupTime()[pri:7, instance:TestScenerios.SceneriosTest@41005828]" name="enterPickupTime" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.enterSource()[pri:4, instance:TestScenerios.SceneriosTest@41005828]" name="enterSource" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.gitCards()[pri:10, instance:TestScenerios.SceneriosTest@41005828]" name="gitCards" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.verifyClick()[pri:2, instance:TestScenerios.SceneriosTest@41005828]" name="verifyClick" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.verifyOneway()[pri:3, instance:TestScenerios.SceneriosTest@41005828]" name="verifyOneway" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.verifyTitle()[pri:1, instance:TestScenerios.SceneriosTest@41005828]" name="verifyTitle" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.enterDepatureDate()[pri:6, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="enterDepatureDate" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.enterDestination()[pri:5, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="enterDestination" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.enterPickupTime()[pri:7, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="enterPickupTime" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.enterSource()[pri:4, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="enterSource" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.verifyClick()[pri:2, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="verifyClick" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.verifyOneway()[pri:3, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="verifyOneway" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.verifyTitle()[pri:1, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="verifyTitle" class="TestScenerios.SceneriosTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="SceneriosTest.clickSearch()[pri:8, instance:TestScenerios.SceneriosTest@41005828]" name="clickSearch" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.enterDepatureDate()[pri:6, instance:TestScenerios.SceneriosTest@41005828]" name="enterDepatureDate" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.enterDestination()[pri:5, instance:TestScenerios.SceneriosTest@41005828]" name="enterDestination" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.enterPickupTime()[pri:7, instance:TestScenerios.SceneriosTest@41005828]" name="enterPickupTime" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.enterSource()[pri:4, instance:TestScenerios.SceneriosTest@41005828]" name="enterSource" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.findSUV()[pri:9, instance:TestScenerios.SceneriosTest@41005828]" name="findSUV" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.gitCards()[pri:10, instance:TestScenerios.SceneriosTest@41005828]" name="gitCards" class="TestScenerios.SceneriosTest"/>
-        <method signature="SceneriosTest.verifyClick()[pri:2, instance:TestScenerios.SceneriosTest@41005828]" name="verifyClick" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.clickSearch()[pri:8, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="clickSearch" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.enterDepatureDate()[pri:6, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="enterDepatureDate" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.enterDestination()[pri:5, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="enterDestination" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.enterPickupTime()[pri:7, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="enterPickupTime" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.enterSource()[pri:4, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="enterSource" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.findSUV()[pri:9, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="findSUV" class="TestScenerios.SceneriosTest"/>
+        <method signature="SceneriosTest.verifyClick()[pri:2, instance:TestScenerios.SceneriosTest@3eb77ea8]" name="verifyClick" class="TestScenerios.SceneriosTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2021-01-24T09:37:59Z" name="Default test" finished-at="2021-01-24T09:39:20Z" duration-ms="81141">
-      <class name="DriverAndBasicFunctions.BaseFunctions">
-        <test-method is-config="true" signature="endReport()[pri:0, instance:DriverAndBasicFunctions.BaseFunctions@4196c360]" started-at="2021-01-24T09:39:20Z" name="endReport" finished-at="2021-01-24T09:39:20Z" duration-ms="362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- DriverAndBasicFunctions.BaseFunctions -->
+    <test started-at="2021-02-02T04:11:50Z" name="Default test" finished-at="2021-02-02T04:12:40Z" duration-ms="50503">
       <class name="TestScenerios.SceneriosTest">
-        <test-method signature="verifyTitle()[pri:1, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:37:59Z" name="verifyTitle" finished-at="2021-01-24T09:38:21Z" duration-ms="22215" status="PASS">
+        <test-method signature="verifyTitle()[pri:1, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:11:50Z" name="verifyTitle" finished-at="2021-02-02T04:12:11Z" duration-ms="21565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method signature="verifyClick()[pri:2, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:38:21Z" name="verifyClick" finished-at="2021-01-24T09:38:22Z" duration-ms="568" status="PASS">
+        <test-method signature="verifyClick()[pri:2, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:11Z" name="verifyClick" finished-at="2021-02-02T04:12:12Z" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClick -->
-        <test-method signature="verifyOneway()[pri:3, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:38:22Z" name="verifyOneway" finished-at="2021-01-24T09:38:22Z" duration-ms="55" status="PASS">
+        <test-method signature="verifyOneway()[pri:3, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:12Z" name="verifyOneway" finished-at="2021-02-02T04:12:12Z" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOneway -->
-        <test-method signature="enterSource()[pri:4, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:38:22Z" name="enterSource" finished-at="2021-01-24T09:38:29Z" duration-ms="6790" status="PASS">
+        <test-method signature="enterSource()[pri:4, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:12Z" name="enterSource" finished-at="2021-02-02T04:12:19Z" duration-ms="6827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterSource -->
-        <test-method signature="enterDestination()[pri:5, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:38:29Z" name="enterDestination" finished-at="2021-01-24T09:38:35Z" duration-ms="6314" status="PASS">
+        <test-method signature="enterDestination()[pri:5, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:19Z" name="enterDestination" finished-at="2021-02-02T04:12:25Z" duration-ms="6398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterDestination -->
-        <test-method signature="enterDepatureDate()[pri:6, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:38:35Z" name="enterDepatureDate" finished-at="2021-01-24T09:38:36Z" duration-ms="559" status="PASS">
+        <test-method signature="enterDepatureDate()[pri:6, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:25Z" name="enterDepatureDate" finished-at="2021-02-02T04:12:25Z" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterDepatureDate -->
-        <test-method signature="enterPickupTime()[pri:7, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:38:36Z" name="enterPickupTime" finished-at="2021-01-24T09:38:36Z" duration-ms="791" status="PASS">
+        <test-method signature="enterPickupTime()[pri:7, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:25Z" name="enterPickupTime" finished-at="2021-02-02T04:12:26Z" duration-ms="742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPickupTime -->
-        <test-method signature="clickSearch()[pri:8, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:38:36Z" name="clickSearch" finished-at="2021-01-24T09:38:38Z" duration-ms="1587" status="PASS">
+        <test-method signature="clickSearch()[pri:8, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:26Z" name="clickSearch" finished-at="2021-02-02T04:12:28Z" duration-ms="1429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSearch -->
-        <test-method signature="findSUV()[pri:9, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:38:38Z" name="findSUV" finished-at="2021-01-24T09:38:43Z" duration-ms="5086" status="PASS">
+        <test-method signature="findSUV()[pri:9, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:28Z" name="findSUV" finished-at="2021-02-02T04:12:35Z" duration-ms="7489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findSUV -->
-        <test-method signature="gitCards()[pri:10, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:38:43Z" name="gitCards" finished-at="2021-01-24T09:39:15Z" duration-ms="31983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gitCards -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScenerios.SceneriosTest@41005828]" started-at="2021-01-24T09:39:15Z" name="closeBrowser" finished-at="2021-01-24T09:39:20Z" duration-ms="4777" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:35Z" name="closeBrowser" finished-at="2021-02-02T04:12:40Z" duration-ms="4788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestScenerios.SceneriosTest@3eb77ea8]" started-at="2021-02-02T04:12:40Z" name="endReport" finished-at="2021-02-02T04:12:40Z" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- TestScenerios.SceneriosTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
