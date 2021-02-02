@@ -31,11 +31,11 @@ public  class Property {
 				journeyDate=prop.getProperty("Date");
 				pickupTime=prop.getProperty("Time");
 				carType=prop.getProperty("Car");
-				moreAmount=prop.getProperty("Amount2");
-				lessAmount=prop.getProperty("Amount1");
-				amount=prop.getProperty("Amount3");
-				name=prop.getProperty("RName");
-				invalidEmail=prop.getProperty("REmail");
+				//moreAmount=prop.getProperty("Amount2");
+				//lessAmount=prop.getProperty("Amount1");
+				//amount=prop.getProperty("Amount3");
+				//name=prop.getProperty("RName");
+				//invalidEmail=prop.getProperty("REmail");
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
