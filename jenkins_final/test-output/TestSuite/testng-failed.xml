@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Test Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestScenerios.Scenerios">
+        <methods>
+          <include name="amountMore"/>
+          <include name="amountPlaceHolder"/>
+          <include name="namePlaceHolder"/>
+          <include name="amountLess"/>
+          <include name="tick"/>
+          <include name="datePlaceHolder"/>
+          <include name="setup"/>
+          <include name="empty"/>
+          <include name="endReport"/>
+          <include name="closeBrowser"/>
+          <include name="untick"/>
+          <include name="emailPlaceHolder"/>
+          <include name="invalidEmail"/>
+        </methods>
+      </class> <!-- TestScenerios.Scenerios -->
+    </classes>
+  </test> <!-- Test Chrome(failed) -->
+  <test thread-count="5" name="Test Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestScenerios.Scenerios">
+        <methods>
+          <include name="amountMore"/>
+          <include name="amountPlaceHolder"/>
+          <include name="namePlaceHolder"/>
+          <include name="amountLess"/>
+          <include name="tick"/>
+          <include name="datePlaceHolder"/>
+          <include name="setup"/>
+          <include name="empty"/>
+          <include name="endReport"/>
+          <include name="closeBrowser"/>
+          <include name="untick"/>
+          <include name="emailPlaceHolder"/>
+          <include name="gitCards"/>
+          <include name="invalidEmail"/>
+        </methods>
+      </class> <!-- TestScenerios.Scenerios -->
+    </classes>
+  </test> <!-- Test Firefox(failed) -->
+  <test thread-count="5" name="Test Opera(failed)">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="TestScenerios.Scenerios">
+        <methods>
+          <include name="amountMore"/>
+          <include name="amountPlaceHolder"/>
+          <include name="namePlaceHolder"/>
+          <include name="amountLess"/>
+          <include name="tick"/>
+          <include name="datePlaceHolder"/>
+          <include name="setup"/>
+          <include name="empty"/>
+          <include name="endReport"/>
+          <include name="closeBrowser"/>
+          <include name="untick"/>
+          <include name="emailPlaceHolder"/>
+          <include name="invalidEmail"/>
+        </methods>
+      </class> <!-- TestScenerios.Scenerios -->
+    </classes>
+  </test> <!-- Test Opera(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
